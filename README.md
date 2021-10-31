@@ -9,13 +9,15 @@ $ mysql -u root -pseedubuntu
 mysql> show databases;
 
 mysql> use Users;
- 
+
+
 mysql> show tables;
 
 mysql>  select * from credential where name = ‘Alice’;
 
  
  
+
 Task 2.1: SQL Injection Attack from webpage.
 
 Type “ admin’ # ” in the Username field and leave empty the password field. 
@@ -27,6 +29,7 @@ Write Code on Terminator in Seed Lab:
 curl 'http://www.seedlabsqlinjection.com/unsafe_home.php?username=Admin%27%20%23';
  
  
+
 Task 3.1: Modify your own salary.
 As shown in the Edit Profile page, employees can only update their nicknames, emails, addresses, phone numbers, and passwords; they are not authorized to change their salaries. Assume that I am Alice. I want to increase my own salary by exploiting the SQL injection vulnerability in the Edit-Profile page. I know that salaries are stored in a column called salary.
 
