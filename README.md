@@ -43,6 +43,7 @@ I want to reduce Boby’s salary to 1 dollar.
 
 Use statement in Alice’s profile editor: ', Salary=1 where name = ‘Boby’ # 
  
+
 Task 3.3: Modify other people’ password.
 
 I want to change Boby’s password that I can log into his account and do further damage.
